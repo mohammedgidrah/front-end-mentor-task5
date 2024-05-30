@@ -5,7 +5,7 @@
 }
 
 .logo {
-
+    padding: 50px;
     display: flex;
     align-items: center;
 
@@ -14,6 +14,7 @@
 div section {
     right: 40px;
     display: flex;
+    position: absolute;
     gap: 50px;
 }
 
@@ -44,6 +45,7 @@ div section {
 }
 
 input {
+    padding-left: 20px;
     margin-top: 25px;
     width: 320px;
     height: 45px;
@@ -59,7 +61,6 @@ button {
 }
 
 .img1 {
-    margin-left: 200px;
     display: flex;
     justify-content: end;
     width: 640px;
@@ -187,6 +188,7 @@ div p span {
 
 .form {
     margin-left: 50px;
+    
     gap: 50px;
     display: flex;
     justify-content: center;
@@ -234,7 +236,22 @@ footer {
     display: flex;
     text-align: center;
 }
+.btn2:hover{
+    background-color: #6C9BFF;
+}
+.col2 p:hover{
+    color: #6C9BFF;
+}
 .col3{
     display: flex;
     flex-direction: row;
 }
+.col3 img:hover{
+    border-radius: 100%;
+    border:solid #6C9BFF;
+
+}
+button:hover{
+    background-color: #6C9BFF;
+}
+
